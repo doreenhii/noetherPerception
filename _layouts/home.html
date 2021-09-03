@@ -15,13 +15,14 @@
     <!-- Banner -->
     <section id="banner" class="major">
         <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
+            <header class=" box landing-box">
+                <h2><a href="{{ site.baseurl }}/">{{ page.landing-title }}</a></h2>
+                <h4 style="text-transform: uppercase;">{{ site.description }}</h4>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <h5>{{ page.description }}</h5>
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                    <li><a href="guidedTour.html" class="button next">Explore</a></li>
                 </ul>
             </div>
         </div>
@@ -29,27 +30,26 @@
 
     <!-- Main -->
     <div id="main">
+        <!-- Two -->
+        <section id="three">
+            <div class="inner">
+                <header class="major">
+                    <h2>About</h2>
+                </header>
+                <p>{{ content }}</p>
+            </div>
+        </section>
 
         <!-- One -->
         {% include tiles.html %}
 
-        <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Massa libero</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
-            </div>
-        </section>
 
     </div>
 
     {% include footer.html %}
 
+{% include lazyload.html %}
+{% include new-window-fix.html %}
 </body>
 
 </html>

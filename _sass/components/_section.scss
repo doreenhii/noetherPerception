@@ -56,6 +56,8 @@
 					}
 				}
 			}
+		}&.no-padding { 
+			margin-bottom: 0em;
 		}
 
 		@include breakpoint(small) {

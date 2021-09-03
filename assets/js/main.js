@@ -178,18 +178,22 @@
 								event.stopPropagation();
 								event.preventDefault();
 
-							// Start transitioning.
-								$this.addClass('is-transitioning');
-								$wrapper.addClass('is-transitioning');
-
 							// Redirect.
 								window.setTimeout(function() {
+								// support Ctrl + Click to open in new tab
+									if (event.metaKey){
+										window.open(href, "_blank")
+									}
+									else{
+										// Start transitioning.
+											$this.addClass('is-transitioning');
+											$wrapper.addClass('is-transitioning');
 
-									if ($link.attr('target') == '_blank')
-										window.open(href);
-									else
-										location.href = href;
-
+										if ($link.attr('target') == '_blank')
+											window.open(href);
+										else
+											location.href = href;
+									}
 								}, 500);
 
 						});

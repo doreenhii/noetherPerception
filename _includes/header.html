@@ -12,19 +12,45 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.pages %}
-		    {% if page.layout == "home" %}
-		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+		{% assign pages = site.pages | where_exp: "item", "item.nav-menu != false" %}
+
+        {% for page in pages %}
+	        <!-- Arrange accordingly -->
+	    	{% if page.short-title-bool == true %}
+		        <li><a href="{{ page.url  | relative_url }}">{{ page.short-title }}</a></li>
+	    	{% else %}
+		        <li><a href="{{ page.url  | relative_url }}">{{ page.title }}</a></li>
 	    	{% endif %}
 		{% endfor %}
-		{% for page in site.html_pages %}
-		    {% if page.layout != "home" and page.nav-menu == true %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-		    {% endif %}
-		{% endfor %}
+        <!-- {% for page in site.pages %}
+	    	{% if page.url == "perceptualConstancy" %}
+		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+	    	{% endif %}
+    	{% endfor %}
+        {% for page in site.pages %}
+	    	{% if page.url == "noetherTheorem" %}
+		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+	    	{% endif %}
+	    {% endfor %}
+        {% for page in site.pages %}
+	    	{% if page.url == "brainstorm" %}
+		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+	    	{% endif %}
+	    {% endfor %}
+	    {% for page in site.pages %}
+	    	{% if page.url == "assumptions_critique" %}
+		        <li><a href="{{ "" | absolute_url }}/">Assumptions & Critiques</a></li>
+	    	{% endif %}
+	    {% endfor %}
+	    {% for page in site.pages %}
+	    	{% if page.url == "previousWork" %}
+		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+	    	{% endif %}
+		{% endfor %} -->
 	</ul>
+	<p></p>
 	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Get Started</a></li>
-		<li><a href="#" class="button fit">Log In</a></li>
+		<li><a href="guidedTour.html" class="button special fit">Guided Tour</a></li>
+		<!-- <li><a href="#" class="button fit">Log In</a></li> -->
 	</ul>
 </nav>

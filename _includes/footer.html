@@ -1,7 +1,7 @@
 <!-- Contact -->
 <section id="contact">
-	<div class="inner">
-		<section>
+	<div class="inner" style="padding: 2em 0 0 0;">
+		<!-- <section>
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
 					<label for="name">Name</label>
@@ -20,67 +20,58 @@
 					<li><input type="reset" value="Clear" /></li>
 				</ul>
 			</form>
+		</section> -->
+		<section>
+			<div class="field">
+				<p>
+					Author: Doreen Hii<br />
+					Email: doreen [dot] hii [at] uci [dot] edu <br />
+				</p>
+				<!-- <ul class="icons">
+					{% for key_value in site.socials %}
+						{% if key_value[1] %}
+							<li>
+								<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
+									<span class="label">{{ key_value[0] }}</span>
+								</a>
+							</li>
+						{% endif %}
+					{% endfor %}
+				</ul> -->
+			</div>
 		</section>
+		
 		<section class="split">
-			<section>
+<!-- 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
 					<h3>Email</h3>
 					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
-				</div>
-			</section>
+			</section> -->
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }} 
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
+					<h3>Affiliation</h3>
+					<p>
+						Visual Perception Laboratory<br />
+						University of California, Irvine<br />
+					</p>
 				</div>
 			</section>
 		</section>
 	</div>
 </section>
 
+
+
 <!-- Footer -->
 	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				{% for key_value in site.socials %}
-					{% if key_value[1] %}
-						<li>
-							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-								<span class="label">{{ key_value[0] }}</span>
-							</a>
-						</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
+		<div class="inner" style="padding: 0em 0 0em 0;">
 			<ul class="copyright">
-				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
-				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+				<li style="color:#5E5E5E">&copy; {{ site.title }} {{ site.subtitle }}</li>
+				<li style="color:#5E5E5E">Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li style="color:#5E5E5E">Theme: forty-jekyll-theme</li>
 
 			</ul>
 		</div>

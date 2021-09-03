@@ -6,6 +6,9 @@
 
 /* Table */
 
+	table.dataTable tbody tr {
+	  background-color: #000000;
+	}
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;

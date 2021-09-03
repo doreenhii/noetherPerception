@@ -1,5 +1,5 @@
 # site settings
-title: Noether's Theorem 
+title: Applying Noether's Theorem 
 subtitle: on Perception
 email: doreen.hii@uci.edu
 description: Through the Window of Perceptual Constancy
@@ -15,7 +15,7 @@ phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 7
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
@@ -33,6 +33,9 @@ socials:
 
 # build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-katex
 
 sass:
   style: compressed

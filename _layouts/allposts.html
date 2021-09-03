@@ -19,12 +19,12 @@
       <!-- One -->
       <section id="one">
 	<div class="inner">
-          {% for post in site.posts %}
-	  {% if post.title != 404 %}
+          {% for page in site.pages %}
+	  {% if page.layout != 404 %}
 	  <header class="major">
-	    <h1>{{ post.title }}</h1>
+	    <h1><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></h1>
 	  </header>
-	  {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
+	  {% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 	  {% if post.date %}<p>{{ post.date }}</p>{% endif %}
 	  <p>{{ post.content }}</p>
 	  {% endif %}
@@ -36,6 +36,8 @@
 
     {% include footer.html %}
 
+  {% include lazyload.html %}
+  {% include new-window-fix.html %}
   </body>
 
 </html>

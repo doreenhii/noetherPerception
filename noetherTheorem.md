@@ -225,7 +225,7 @@ datatable: true
 					<b>Right</b>: As we sweep over X-axis in small increments (integration), the least cost solution has to have $\varepsilon =0$, so that $q^{\text{solution}} = q^1(x)$, meaning we arrived at the least cost solution. Setting $\frac{d\Gamma}{d\varepsilon} = 0$ means that we would like to find the stationary point, which in our case, is the minimum point corresponding to least cost path. The solution will have $\varepsilon=0$ so that the corresponding set of variables will be $q^\mu$, that is the least cost solution. 
 				</p>
 			</div>
-			<div class="6u 12u$(medium)"><span class="image fit"></span><img src="{% link assets/images/ELE.png %}" alt="ELE-demo">
+			<div class="6u 12u$(medium)"><span class="image fit"></span><img src="assets/images/ELE.png" alt="ELE-demo">
 			</div>
 		</div>
 	</p>

@@ -49,7 +49,7 @@ datatable: true
 <p>
 <div class="row uniform">
 	<div class="6u 12u$(medium)">
-		<p class="image fit"></span><img src="{% link assets/images/symm_physical_perception.png %}" alt="Symmetry: physical world and perception">
+		<p class="image fit"></span><img src="assets/images/symm_physical_perception.png" alt="Symmetry: physical world and perception">
 	</div>
 	<div class="6u 12u$(medium)">
 		<p>

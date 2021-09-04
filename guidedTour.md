@@ -26,7 +26,7 @@ show_tile: false
 <section id="two" class="spotlights">
 	<section>
 		<a href="goalTemplate.html" class="image">
-			<img src="{% link assets/images/goalTemplate.jpg %}" alt="Invariante Variationsprobleme" data-position="center center" />
+			<img src="assets/images/goalTemplate.jpg" alt="Invariante Variationsprobleme" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -47,7 +47,7 @@ show_tile: false
 	</section>
 	<section>
 		<a href="perceptualConstancy.html" class="image">
-			<img src="{% link assets/images/perception.jpg %}" alt="" data-position="top center" />
+			<img src="assets/images/perception.jpg" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -64,7 +64,7 @@ show_tile: false
 	</section>
 	<section>
 		<a href="noetherTheorem.html" class="image">
-			<img src="{% link assets/images/noether.jpg %}" alt="" data-position="25% 25%" />
+			<img src="assets/images/noether.jpg" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -81,7 +81,7 @@ show_tile: false
 	</section>
 	<section>
 		<a href="brainstorm.html" class="image">
-			<img src="{% link assets/images/attempt.jpg %}" alt="" data-position="25% 25%" />
+			<img src="assets/images/attempt.jpg" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -102,7 +102,7 @@ show_tile: false
 	</section>
 	<section>
 		<a href="assumptions_critiques.html" class="image">
-			<img src="{% link assets/images/challenges.jpg %}" alt="" data-position="25% 25%" />
+			<img src="assets/images/challenges.jpg" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -123,7 +123,7 @@ show_tile: false
 	</section>
 	<section>
 		<a href="previousWork.html" class="image">
-			<img src="{% link assets/images/previousWork.jpg %}" alt="" data-position="25% 25%" />
+			<img src="assets/images/previousWork.jpg" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">

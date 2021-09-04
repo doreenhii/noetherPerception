@@ -19,6 +19,6 @@ This website collects thoughts and ideas, both developed or neonate, on formaliz
 
 # Affiliation
 
-Visual Perception Laboratory 
+Visual Perception Laboratory<br/>
 University of California, Irvine 
 

@@ -37,7 +37,7 @@ We first outline our proposal on defining 3D shapes by its mirror symmetry (bila
 	Both natural and man-made objects exhibit mirror-symmetry. Nature could have picked up on that and evolve to utilize the information. <br />
 </p>
 <p>
-	Why do almost all objects exhibit mirror symmetry? This could be linked to stability (symmetrical distribution of weights), or to their functionality (being able to move straightly, or move in all directions, being able to bear objects, ...) [Over 99% of modern animals exhibit mirror symmetry. Refer to Finnerty, J. R., Pang, K., Burton, P., Paulson, D., & Martindale, M. Q. (2004). Origins of bilateral symmetry: Hox and dpp expression in a sea anemone. Science, 304(5675), 1335-1337.]. It is hard to find non-symmetrical shapes in nature, an outlier will be the arrangements of internal organs, where space constraint is prominent.
+	Why do almost all objects exhibit mirror symmetry? This could be linked to stability (symmetrical distribution of weights), or to their functionality (being able to move straightly, or move in all directions, being able to bear objects, ...) [Over 99% of modern animals exhibit mirror symmetry. Refer to Finnerty, J. R., Pang, K., Burton, P., Paulson, D., & Martindale, M. Q. (2004)]. It is hard to find non-symmetrical shapes in nature, an outlier will be the arrangements of internal organs, where space constraint is most pressing.
 </p>
 <p>
 	Other than that, symmetry entails redundancy. Zyg & de Barros (2021) believe that "redundancy is the most effective constraint in solving ill-posed inverse problems." Mirror symmetry is the simplest case redundancy, with one symmetry under the operation of mirror reflection. 

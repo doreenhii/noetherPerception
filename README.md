@@ -2,7 +2,7 @@
 
 Thoughts discussions on describing human perception using the formalism of Noether’s Theorem.
 
-![noetherPerception](https://github.com/doreenhii/noetherPerception/blob/master/assets/images/doreenhii.github.io:noetherPerception.png "noetherPerception")
+[![noetherPerception](https://github.com/doreenhii/noetherPerception/blob/master/assets/images/doreenhii.github.io:noetherPerception.png "noetherPerception")](https://doreenhii.github.io/noetherPerception/)
 
 # About
 
@@ -19,6 +19,6 @@ This website collects thoughts and ideas, both developed or neonate, on formaliz
 
 # Affiliation
 
-Visual Perception Laboratory 
+Visual Perception Laboratory<br/>
 University of California, Irvine 
 

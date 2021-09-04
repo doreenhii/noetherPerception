@@ -2,7 +2,7 @@
 
 Thoughts discussions on describing human perception using the formalism of Noether’s Theorem.
 
-![noetherPerception](assets/images/noetherPerception.png?raw=true "noetherPerception")
+![noetherPerception](https://github.com/doreenhii/noetherPerception/blob/master/assets/images/doreenhii.github.io:noetherPerception.png "noetherPerception")
 
 # About
 

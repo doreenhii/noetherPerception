@@ -10,42 +10,48 @@ nav-menu: true
 ---
 
 <blockquote>
-	Spelling out all assumptions, bridging hypotheses, and possible critiques.
+	Spelling out assumptions, bridging hypotheses, addressing possible critiques.
 	<br /><br />
 	Physical and perceptual invariance, perception as non-physical quality, continuous vs discrete symmetry, ...
 </blockquote>
 
 
 <header class="major">
-    <h4>Assumption 1:</h4><p style="text-transform: none; font-size: .8em;"> We arrive at the perceptual constancy because there is physical invariants. The physical dynamics of the shape of an object can be described by some Lagrangian</p>
+    <h4>Assumption 1:</h4><p style="text-transform: none; font-size: .8em;"> We arrive at perceptual constancy because there are physical invariants</p>
 </header>
-Does perceiving the world veridically necessarily mean that we will have the same Lagrangian for both physical and perception? If yes, the research question becomes: What is the Lagrangian for a physical 3D shape? More specifically, what is the set of fundamental ingredients (abstract variables) that describe a physical 3D shape, so that when we apply some transformations (in the dimensions of all the constancies we observed: size, lighting, color, ...) the Lagrangian describing the shape is not affected.
+<p>
+    If we described the physical dynamics of the shape of an object to be some Lagrangian, does perceiving the world veridically mean that we will have the same Lagrangian for both the physical representation and perception, the mental representation? If yes, the research question becomes: What is the Lagrangian for a physical 3D shape? More specifically, what is the set of fundamental ingredients (abstract variables) that describe a physical 3D shape, so that when we apply some transformations (in the dimensions of all the constancies we observed: size, lighting, color, ...) the Lagrangian describing the shape is not affected.
+</p>
+<p>
+    Another direction to work on would be to choose the appropriate generalized coordinates. A generalized coordinate that simplifies the calculation typically captures all necessary information implictly. An example would be to describe the movement of a pendulum using polar coordinates ($\rho, \theta$). This is a simplification because there are $N$ ELEs to solve, one for each coordinate or variable that was defined (angle $\theta$ in polar versus $(x, y)$ in Cartesian. Therefore, a good generalized coordinate reduces the number of equations that should be solved.
+</p>
 
 <header class="major">
     <h4>Assumption 2:</h4><p style="text-transform: none; font-size: .8em;">Perceptual conservation laws can be derived from variational principle or following Noether's theorem</p>
 </header>
-Can perception be derived from variational principle? Maybe: We know that people have been applying cost functions to solve the inverse problems in vision. "Boltzmann’s H-theorem does not seem to be derivable through a variational principle." For H-theorem, is it just that the way has not been found, or there is just absolutely no way?
+Can perception be derived from variational principle? Maybe: We know that people have been applying cost functions to solve the inverse problems in vision. On the other side of the coin, "Boltzmann’s H-theorem does not seem to be derivable through a variational principle." (Pizlo and de Barros, 2021) For H-theorem, is it just that the way has not been found, or is there absolutely no way?
+
+<p> <br /><p>
+
 
 <header class="major">
-    <h4>Assumption 3:</h4><p style="text-transform: none; font-size: .8em;">Mirror symmetry is a discrete symmetry</p>
+    <h4>Critique 1:</h4><p style="text-transform: none; font-size: .8em;">Mirror symmetry is a discrete symmetry</p>
 </header>
-So that 3D shape perception is invariant under a discrete transformation. A challenge in adopting mirror symmetry as the abstract variable capturing the concept of a shape is that it is a discrete symmetry. Mirror reflection belongs to finite symmetry group O(1) becuase because there is only 1 plane upon mirror reflection transformation operation that the shape before and after transformation is invariant (symmetric). 
+<p>
+    Noether's theorem deals with continuous transformations. If conservation law is an order higher invariance (a higher order derivative), does a discrete symmetry havev conservation law? 
+</p>
+<p>
+    If mirror symmetry is the abstract variable capturing the concept of a shape, then 3D shape perception is invariant under a mirror symmetry, which is a discrete transformation. Mirror reflection belongs to finite symmetry group O(1) because there is only 1 plane upon mirror reflection transformation operation that the shape before and after transformation is invariant (symmetric).
+</p>
+<p> 
+    Can we take inspiration from quantum mechanics, where Hamiltonians are invariant under another discrete symmetry transformation, the parity transformation? 
+</p>
 
-Can we take inspiration from quantum mechanics, where Hamiltonians are invariant under another discrete symmetry transformation, the parity transformation? 
 
 <header class="major">
     <h4>Question:</h4><p style="text-transform: none; font-size: .8em;">How do we know that we have arrived at our goal?</p>
 </header>
 Did we arrive at a conservations law or an approximate conservation law? How can we know that we are proposing something that works only in our own coordinate system or a generalized coordinate? Do we need to worry about generalized coordinates at this stage? At what stage do we need to think abou this question?  
-
-<header class="major">
-    <h4>Possible critiques and responses</h4>
-</header>
- TK
-
-
-
-
 
 
 

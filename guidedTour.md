@@ -71,8 +71,8 @@ show_tile: false
 				<header class="major">
 					<h3>Noether's Theorem</h3>
 				</header>
-				<p> Symmetry [of a variational problem] implies a conserved quantity with a one-to-one correspondence, which conservation law can be derived by applying the least action principle. </p>
-				<p>Mathematical notations of Noether's theorem, written with minimal assumption on reader's mathematical background. Expandable step-by-step derivations are included so that any interested reader may understand and appreciate the theorem.</p>
+				<p>Symmetry [of a variational problem] implies a one-to-one correspondence with a conserved quantity, which conservation law can be derived by applying the least action principle. </p>
+				<p>Mathematical notations of Noether's theorem, written with minimal assumption on reader's background. Expandable step-by-step derivations are included so that any interested reader may understand and appreciate the theorem.</p>
 				<ul class="actions">
 					<li><a href="noetherTheorem.html" class="button">Learn more</a></li>
 				</ul>
@@ -110,7 +110,7 @@ show_tile: false
 					<h3>Assumptions and Possible Critiques</h3>
 				</header>
 				<p> 
-					Spelling out all assumptions, bridging hypotheses, and possible critiques.
+					Spelling out assumptions, bridging hypotheses, addressing possible critiques.
 				</p>
 				<p>
 					Physical and perceptual invariance, perception as non-physical quality, continuous vs discrete symmetry, ...

@@ -10,7 +10,7 @@ nav-menu: true
 <blockquote>
 	Documenting attempts of linking perception to Noether's theorem.
 	<br /><br />
-	Where do we stand? What are the challenges ahead? What can we learn from the history of Physics? Can we follow the same steps to arrive at a set of equations which describe human perception? 
+	Where do we stand? What are the challenges ahead? What can we learn from the history of Physics? Can we follow the same steps to arrive at a set of equations to describe human perception? 
 </blockquote>
 
 <p>
@@ -64,10 +64,10 @@ Below are some general approaches that may be relevant if one wishes to propose 
 	This approach moves in the direction of selecting the appropriate variables, followed by proposing a suitable Lagrangian to describe the phenomena (invariance), then deriving its conservation law. 
 </p>
 <p>
-	The challenge to this approach is that we do not know how to describe perception. Drawing parallels in Physics, objects are abstracted away and described in terms of energies. Motion of objects are therefore also captured as changes in their energies. After suitable variables such as energies are identified, there needs to be the appropriate proposal of Lagrangian, e.g. $L = K - U$. For mechanical systems, $L = K - U$ just works, but for other domains, the Lagrangian should be a function that generates equations of motion. But how was $L = K - U$ first proposed? How did the author know that it just works? One could even ask, why distilling the substance of an object to be its energy? In a broad sense, in order for that to happen, scientists start from making observations, they then formulate theories on how the system works, and finally refining better theories to be able to capture more cases. This is the face-to-face confrontation method because you need special insights to propose something that will capture the hidden, intrinsic, inner workings of perception.
+	The challenge to this approach is that we do not know how to describe perception. To draw a parallel, in Physics, objects are abstracted away and described in terms of energies. Motion of objects are therefore also captured as changes in their energies. After suitable variables such as energies are identified, there needs to be the appropriate proposal of Lagrangian, e.g. $L = K - U$. For mechanical systems, $L = K - U$ just works, but for other domains, the Lagrangian should be a function that generates equations of motion. But how was $L = K - U$ first proposed? How did the author know that it just works? One could even ask, why distilling the substance of an object to be its energy? In a broad sense, in order for that to happen, scientists start from making observations, they then formulate theories on how the system works, and finally refining better theories to be able to capture more cases. This is the face-to-face confrontation method because you need special insights to propose something that will capture the hidden, intrinsic, inner workings of perception.
 </p>
 <p>
-	The importance of picking the appropriate phenomena. Drawing parallels in Physics, an object by itself does not offer incentive to study. In other words, there is not enough perspective for physicists to come up with brilliant guesses on the underlying laws of the object. It is when objects are set into motion that a perspective opened up, which led to the proposal of characterizing dynamics or motion of systems by energy and momentum. That may be the reason for the field of mechanics to be one of the oldest branches in physics. Similarly, what are some phenomena that we can study when we set perception in "motion"? Then, subsequent questions may follow: What are the possible ways to describe perception? And what have been tried? What should be the Lagrangian that generates the "motion" of perception, such that we quantify how similar two percepts are, and if they are invariant?
+	The importance of picking the appropriate phenomena. To draw a parallel, in Physics, an object by itself does not offer incentive to study. In other words, there is not enough perspective for physicists to come up with brilliant guesses on the underlying laws of the object. It is when objects are set into motion that a perspective opened up, which led to the proposal of characterizing dynamics or motion of systems by energy and momentum. That may be the reason for the field of mechanics to be one of the oldest branches in physics. Similarly, what are some phenomena that we can study when we set perception in "motion"? Then, subsequent questions may follow: What are the possible ways to describe perception? And what have been tried? What should be the Lagrangian that generates the "motion" of perception, such that we quantify how similar two percepts are, and if they are invariant?
 </p>
 <p>
 	Verification step to check the legitimacy of Lagrangian (and the proposed abstraction of perception): check its number of symmetries. If the arrived percept does not depend on some variable $z$, then applying transformations along $z$ axis should have no impact on the dynamics under study (symmetric along the dimension).
@@ -76,7 +76,7 @@ Below are some general approaches that may be relevant if one wishes to propose 
 	Possible critique on the solutions provided by this approach: why does the brain choose on that thing to be conserved (questions people tend to ask more when it comes to biological systems, but people don’t ask why is energy the quantity that is conserved)? You need a lot of experiments showing that the proposal is generalizable, so that it is shown, experiment-by-experiment, that it is the correct (an adequate) Lagrangian. 
 </p>
 <blockquote>
-"It is important to realize that in physics today we have no knowledge of what energy is" --Richard Feynman (<a href="https://www.feynmanlectures.caltech.edu/I_04.html">Lecture 4: Conservation of Energy</a>)
+"It is important to realize that in physics today we have no knowledge of what energy is" &#8212; Richard Feynman (<a href="https://www.feynmanlectures.caltech.edu/I_04.html">Lecture 4: Conservation of Energy</a>)
 </blockquote>
 
 

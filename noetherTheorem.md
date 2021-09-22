@@ -9,14 +9,14 @@ datatable: true
 ---
 
 <blockquote> 
-	Symmetry [of a variational problem] implies a conserved quantity with a one-to-one correspondence, which conservation law can be derived by applying the least action principle.<br /><br />
-	Mathematical notations of Noether's theorem, written with minimal assumption on reader's mathematical background. Expandable step-by-step derivations are included so that any interested reader may understand and appreciate the theorem.
+	Symmetry [of a variational problem] implies a one-to-one correspondence with a conserved quantity, which conservation law can be derived by applying the least action principle.<br /><br />
+	Mathematical notations of Noether's theorem, written with minimal assumption on reader's background. Expandable step-by-step derivations are included to help anyone who is interested to understand and appreciate the theorem.
 </blockquote>
 
 <header class="major">
     <h2>Noether's Theorem</h2>
 </header>
-<p>Text on this page is heavily based on the book *Emmy Noether’s Wonderful Theorem*, by Dwight E. Neuenschwander. </p>
+<p>Text on this page is heavily based on the book <i>Emmy Noether’s Wonderful Theorem</i>, by Dwight E. Neuenschwander. </p>
 <div class="box">
 	<p>If under the infinitesimal transformation $t' = t + \varepsilon \tau + ...; q'^\mu = q^\mu + \varepsilon \zeta^\mu + ...$, the functional $\Gamma = \int_a^b L(t, q^\mu, \dot{q}^\mu)\ dt$ is both invariant and extremal, then the following conservation law holds: $p_\mu  \zeta^\mu - H\tau = \text{constant}$.
 	</p>
@@ -26,11 +26,11 @@ datatable: true
 	</header></summary> 
 	<p>If under the infinitesimal transformation $t' = t + \varepsilon \tau + ...$</p>
 	<p style="margin: -2em 0 1em 50px;">
-		$t$ are the independent variables of some generalized coordinate, $\tau$ is the generator for independent variables, $\tau(t, q^\mu) \equiv \frac{dT}{d\varepsilon}$, where $T$ is a mapping function that transforms coordinate system, taking in original independent and dependent variables and output a new set of independent variables, $t \rightarrow t' = T(t, q^\mu, \varepsilon)$, $\varepsilon$ quantifies how much difference there is between the original and new coordinate system. $+...$ are higher order terms after expanding $T(t, q^\mu, \varepsilon)$ in Taylor series about $\varepsilon = 0$, so $t' = t + \varepsilon \left(\frac{dT}{d\varepsilon}\right)_0 + O(\varepsilon^2) + O(\varepsilon^3) + ...$.
+		$t$ represent the independent variables of some generalized coordinate, $\tau$ is the collection of generators for the independent variables, $\tau(t, q^\mu) \equiv \frac{dT}{d\varepsilon}$, where $T$ is a mapping function that transforms coordinate system, taking in original independent and dependent variables and output a new set of independent variables, $t \rightarrow t' = T(t, q^\mu, \varepsilon)$, $\varepsilon$ quantifies how much difference there is between the original and new coordinate system. $+...$ are higher order terms after expanding $T(t, q^\mu, \varepsilon)$ in Taylor series about $\varepsilon = 0$, so $t' = t + \varepsilon \left(\frac{dT}{d\varepsilon}\right)_0 + O(\varepsilon^2) + O(\varepsilon^3) + ...$.
 	</p>
 	<p>If under the infinitesimal transformation ... $q'^\mu = q^\mu + \varepsilon \zeta^\mu + ...$</p>
 	<p style="margin: -2em 0 1em 50px;">
-		$q^\mu$ are the dependent variables of some generalized coordinate , $\zeta^\mu$ is the generator for dependent variables, $\zeta^\mu(t, q^\nu) \equiv \left(\frac{dQ^\mu}{d\varepsilon}\right)_0 $, where $Q^\mu$ is a mapping function that transforms coordinate system, taking in original independent and dependent variables and output a new set of dependent variables, $Q^\mu(t, q^\nu, \varepsilon)$, $\varepsilon$ quantifies how much difference there is between the original and new coordinate system, and $q^\nu$ are the generalized dependent variables. $+...$ are higher order terms after expanding $Q^\mu(t, q^\nu, \varepsilon)$ in Taylor series about $\varepsilon = 0$, so $q' = q + \varepsilon \left(\frac{dQ^\mu}{d\varepsilon}\right)_0 + O(\varepsilon^2) + O(\varepsilon^3) + ...$.
+		$q^\mu$ represent the dependent variables of some generalized coordinate, $\zeta^\mu$ is the collection of generators for dependent variables, $\zeta^\mu(t, q^\nu) \equiv \left(\frac{dQ^\mu}{d\varepsilon}\right)_0 $, where $Q^\mu$ is a mapping function that transforms coordinate system, taking in original independent and dependent variables and output a new set of dependent variables, $Q^\mu(t, q^\nu, \varepsilon)$, $\varepsilon$ quantifies how much difference there is between the original and new coordinate system, and $q^\nu$ are the generalized dependent variables. $+...$ are higher order terms after expanding $Q^\mu(t, q^\nu, \varepsilon)$ in Taylor series about $\varepsilon = 0$, so $q' = q + \varepsilon \left(\frac{dQ^\mu}{d\varepsilon}\right)_0 + O(\varepsilon^2) + O(\varepsilon^3) + ...$.
 	</p>
 	<p>the functional $\Gamma = \int_a^b L(t, q^\mu, \dot{q}^\mu)\ dt$ is both invariant and extremal</p>
 	<p style="margin: -2em 0 1em 50px;">
@@ -38,13 +38,13 @@ datatable: true
 	</p>
 	<p>then the following conservation law holds: $p_\mu  \zeta^\mu - H\tau = \text{constant}$</p>
 	<p style="margin: -2em 0 1em 50px;">
-		$p_\mu$ are the canonical momentum conjugate, $p_\mu \equiv \frac{\partial L}{\partial \dot{q}^\mu}$. $H$ is the Hamiltonian, $H \equiv p_\mu \dot{q}^\mu - L$. 
+		$p_\mu$ are the canonical momentum conjugates, $p_\mu \equiv \frac{\partial L}{\partial \dot{q}^\mu}$. $H$ is the Hamiltonian, $H \equiv p_\mu \dot{q}^\mu - L$. 
 	</p>
 	</details>
 </div>
 
 <p>
-	The implication of Noether's theorem is that, invariance (symmetries) in nature are related to their corresponding conservation laws through the least action principle. Invariants of Lagrangian always have their corresponding conservation laws. Identifying the conservation law means that we identified some fundamental laws of nature. The explanation for human perception the becomes: perceptual constancy occurs because perception abides under the conservation law of xxx. There is no dispute &#8212; that is how nature works. The goal of this project is to be able to write out mathematically the conservation laws of human perception. 
+	The implication of Noether's theorem is that, invariance (symmetries) in nature are related to their corresponding conservation laws through the least action principle. Invariants of Lagrangian always have their corresponding conservation laws. Identifying the conservation law means that we identified some fundamental laws of nature. The explanation for human perception then becomes: perceptual constancy occurs because perception abides by the conservation law of xxx. There is no dispute &#8212; that is how nature works. The goal of this project is to be able to write out mathematically the conservation laws of human perception. 
 </p>
 <p>
 <div class="row uniform">
@@ -102,16 +102,21 @@ datatable: true
 	</table>
 </div>
 
+
+<header class="major">
+	    <h2>More Explanations</h2>
+</header>
 <p>
 	Note: For ease of notation, we consider the case where there is 1 independent variable, $t$, and a set of dependent variables $q^\mu$, where $\mu= 1,\ 2,\ ...,\ N$ with $N$ being the total number of dependent variables. We can always generalize to include more independent variables, $\Gamma = \int \int L(t_1, t_2, ...)\ dt_1 dt_2$. 
 </p>
 <p>
-	We can also include only up to the first order of derivative for the dependent variables, although higher order derivative terms can be included, $\Gamma = \int L(t, q^\mu, \dot{q}^\mu, \ddot{q}^\mu, ...)$.
+	We can also include only up to the first order of derivative for the dependent variables, $\dot{q}^\mu$. Higher order derivative terms can easily be included, $\Gamma = \int L(t, q^\mu, \dot{q}^\mu, \ddot{q}^\mu, ...)$. <br />
 </p>
+
 
 <details>
   <summary><header class="major">
-    <h4 style="margin: -1.5em 0 0 1em">More Explanation: Conservation of energy</h4>
+    <h4 style="margin: -1.5em 0 0 1em">Conservation of energy</h4>
 </header></summary> 
 <div class="box">
 	<p>  
@@ -139,7 +144,7 @@ datatable: true
 	  \end{equation*}$$
 	</p>
 	<p>
-		When $\frac{\partial L}{\partial t} = 0 $, there is a conservation. Specifically, the quantity $\frac{d}{dt} \left( p_\mu \dot{q}^\mu - L \right)$ is being conserved because small perturbation to the independent variables, $t \rightarrow t + \Delta t$ has no impact on $\frac{d}{dt} \left( p_\mu \dot{q}^\mu - L \right)$. In order for that to happen, $\left( p_\mu \dot{q}^\mu - L \right)$ has to be a constant so that $\frac{d}{dt}(\text{constant})=0$. Therefore, there is a conservation either if $H$ is constant or $\frac{\partial L}{\partial t} = 0 $.
+		When $\frac{\partial L}{\partial t} = 0 $, there is a conservation. Specifically, the quantity $\frac{d}{dt} \left( p_\mu \dot{q}^\mu - L \right)$ is being conserved, $=0$, because small perturbation to the independent variables, $t \rightarrow t + \Delta t$ has no impact on $\frac{d}{dt} \left( p_\mu \dot{q}^\mu - L \right)$. In order for that to happen, $\left( p_\mu \dot{q}^\mu - L \right)$ has to be a constant so that $\frac{d}{dt}(\text{constant})=0$. Therefore, there is a conservation either if $H$ is constant or $\frac{\partial L}{\partial t} = 0 $. $H$ will be discussed in detail in the next subsection, <a href="#hamiltonian">Hamiltonian $H \equiv  p_\mu \dot{q}^\mu - L$</a>.
 	</p>
 	<p>
 		In Physics, they call this condition where the quantity doesn't change with time, the conservation of energy. 
@@ -147,28 +152,34 @@ datatable: true
 	</div>	
 </details>
 
-<details style="margin: -1.5em 0 0 1em">
-	<summary><header class="major no-padding">
-		<h5 style="margin: -1.5em 0 0 1em">Hamiltonian $H \equiv  p_\mu \dot{q}^\mu - L$</h5>
-	</header></summary>
+
+
+<p style="position:relative;">
+	<!-- place anchor a little above so that can reference there -->
+    <a name="hamiltonian" style="position:absolute; top:-100px;"></a>
+	<details style="margin: -1.5em 0 0 1em">
+		<summary><header class="major no-padding">
+			<h5 style="margin: -1.5em 0 0 1em">Hamiltonian $H \equiv  p_\mu \dot{q}^\mu - L$</h5>
+		</header></summary>
 <div class="box">
 	<p>
-	  See that we have written $\left( p_\mu \dot{q}^\mu - L \right)$ a lot of times, we create a new variable, $H$, named the Hamiltonian, $H \equiv  p_\mu \dot{q}^\mu - L$, or written in full, $H \equiv  \frac{\partial L}{\partial \dot{q}^\mu} \dot{q}^\mu - L$. $H(t, q^\mu, p_\mu)$ is a function of the independent variables, $t$, the dependent variables $q^\mu$, and the conjugate momenta of the dependent variables, $p_\mu$.
+	  See that we have written $\left( p_\mu \dot{q}^\mu - L \right)$ many times, we define a new variable, $H$, named the Hamiltonian, $H \equiv  p_\mu \dot{q}^\mu - L$, or written in full, $H \equiv  \frac{\partial L}{\partial \dot{q}^\mu} \dot{q}^\mu - L$. $H(t, q^\mu, p_\mu)$ is a function of the independent variables, $t$, the dependent variables $q^\mu$, and the conjugate momenta of the dependent variables, $p_\mu$.
 	</p>
 	<p>
 	  For Physicists, Hamiltonian is always the energy of something, though in other domains it need not be the case. This is because for most physics applications, $H = K + U$, which is the total mechanical energy: kinetic plus potential energy, $E = K + U$. Since $L$ and $H$ in those applications have the same dimensions, through the definition of $H \equiv  p_\mu \dot{q}^\mu - L$, physicists can afford to say that their Hamiltonian is always the energy of something. 
 	</p>
 	</div>
 </details>
+</p>
 
 <!-- NEW Section: Momentum -->
-<details style="margin: 0em 0 2em 1em">
+<details style="margin: -1.5em 0 2em 1em">
 	<summary><header class="major no-padding">
 		<h5 style="margin: -1.5em 0 0 1em">Legendre transformation from $L(t, q^\mu, \dot{q}^\mu)$ to $H(t, q^\mu, p_\mu)$</h5>
 	</header></summary>
 <div class="box">
 	<p>
-		Using $H$ in the total time derivative of our Lagrangian, we can re-write $\ref{eq:Legendre}$ in the form, $\frac{\partial L}{\partial t} + \frac{d}{dt}(H) =0$ or $\frac{\partial L}{\partial t} + \dot{H} =0$, where $H \equiv  p_\mu \dot{q}^\mu - L$. We call this alternate form of writing a function, one which converts the variables, $\left( q^\mu \right)$, to its conjugate set of variables, $\left( p_\mu \right)$, the Legendre transformation.
+		Using $H$ in the total time derivative of our Lagrangian, we can re-write $\ref{eq:Legendre}$ in the form, $\frac{\partial L}{\partial t} + \frac{d}{dt}(H) =0$ or $\frac{\partial L}{\partial t} + \dot{H} =0$, where $H \equiv  p_\mu \dot{q}^\mu - L$. We call this alternate form of writing a function, from one which takes the variables, $\left( q^\mu \right)$, to a function that takes the conjugate set of variables, $\left( p_\mu \right)$, the Legendre transformation.
 	</p>
 	</div>
 </details>
@@ -176,7 +187,7 @@ datatable: true
 <!-- NEW Section: Lagrangian and ELE -->
 <details>
   <summary><header class="major">
-    <h4 style="margin: -1.5em 0 0 1em">More Explanation: Conservation of momentum</h4>
+    <h4 style="margin: -1.5em 0 0 1em">Conservation of momentum</h4>
 </header></summary> 
 <div class="box">
 	<p>  
@@ -201,13 +212,17 @@ datatable: true
 </div>
 </details>
 
-<details>
-  <summary><header class="major">
-    <h4 style="margin: -1.5em 0 0 1em">Deriving ELE from Lagrangian</h4>
-</header></summary> 
+
+<p style="position:relative;">
+	<!-- place anchor a little above so that can reference there -->
+    <a name="sec:ELE" style="position:absolute; top:-100px;"></a>
+	<details>
+		<summary><header class="major">
+			<h4 style="margin: -1.5em 0 0 1em">Deriving ELE from Lagrangian</h4>
+		</header></summary>
 <div class="box">
 	<p>
-		Euler-Lagrange equations (ELE) are outcome of the lemma of the calculus of variations. It occurs that to find the set of functions, $\{q^\mu(t)\}$ that makes $\Gamma$ extremal, the quantity $\frac{\partial L}{\partial q^\mu} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q}^\mu} $ has to evaluate to 0. 
+		Euler-Lagrange equations (ELEs) are outcomes of the lemma of the calculus of variations. It occurs that to find the set of functions, $\{q^\mu(t)\}$ that makes $\Gamma$ extremal, the quantity $\frac{\partial L}{\partial q^\mu} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q}^\mu} $ has to evaluate to 0. 
 		$$\label{eq:ELE}\tag{eq:ELE}$$ $$
 		  \begin{equation*}
 		  	\begin{split}	\frac{\partial L}{\partial q^\mu} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q}^\mu} &= 0
@@ -215,14 +230,14 @@ datatable: true
 		\end{equation*}$$
 	</p>
 	<p>
-		Below we show, baby step by baby step, derivation of ELE. Recall that $L$ is a function that generates equations of motion, $L(t, q^\mu, \dot{q}^\mu)$. Say we are interested in the collective motion of that system of interest between two set points $a$ and $b$, i.e., the trajectory between $a$ and $b$. We therefore sum up the motion from $a$ to $b$, which is equivalent to taking the integral over the independent variable $t$, $\int_a^b L(t, q^\mu, \dot{q}^\mu)\ dt$. $t$, $\int_a^b L(t, q^\mu, \dot{q}^\mu)\ dt$ can also be called the <i>action</i>. We define a variable to represent the <i>functional</i> (an operator that maps functions to real numbers), such that $\Gamma = \int_a^b L(t, q^\mu, \dot{q}^\mu)\ dt$. $\Gamma$ takes in a function and returns a real number evaluating the cost Our goal is to identify the least cost trajectory to get from $a$ to $b$, i.e., we want to find the set of functions $\{q^\mu(t)\},\ \mu = 1,\ 2,\ ...,\ N$ that makes $\Gamma$ extremal, where $N$ is the total number of dependent variables. 
+		Below we show, baby step by baby step, derivation of ELE. Recall that $L$ is a function that generates equations of motion, $L(t, q^\mu, \dot{q}^\mu)$. Say we are interested in the collective motion of that system of interest between two set points $a$ and $b$, i.e., the trajectory between $a$ and $b$. We therefore sum up the motion from $a$ to $b$, which is equivalent to taking the integral over the independent variable $t$, $\int_a^b L(t, q^\mu, \dot{q}^\mu)\ dt$. $\int_a^b L(t, q^\mu, \dot{q}^\mu)\ dt$ can also be called the <i>action</i>. We define a variable to represent the <i>functional</i> (an operator that maps functions to real numbers), such that $\Gamma = \int_a^b L(t, q^\mu, \dot{q}^\mu)\ dt$. $\Gamma$ takes in a function and returns a real number evaluating the cost. Our goal is to identify the least cost trajectory to get from $a$ to $b$, i.e., we want to find the set of functions $\{q^\mu(t)\},\ \mu = 1,\ 2,\ ...,\ N$ that makes $\Gamma$ extremal, where $N$ is the total number of dependent variables. 
 	</p>
 	<p>
 		<div class="row uniform">
 			<div class="6u 12u$(medium)">
 				<p style="font-size: 12px;">
-					<b>Left</b>: Consider a simple case to illustrate this: we have 1 independent variable, $X$ and 1 dependent variable $Y$. We would like to find the set of $\{y\}$ such that the cost for the trajectory between $a$ and $b$ is minimal. A straight line is the solution with minimum cost, if we define our cost as the Euclidean distance between $a$ and $b$, shown by the bolded solid straight line in the image. Let $q^1(x)$ be the least cost solution, with $N=1$ (we only have 1 dependent variable). There are other solutions, $q'^1$ such that it will produce longer trajectories, $q'^1(x)= q^1(x) + \varepsilon \zeta^1$. An example being the thin gray curvy line in the image.<br />
-					<b>Right</b>: As we sweep over X-axis in small increments (integration), the least cost solution has to have $\varepsilon =0$, so that $q^{\text{solution}} = q^1(x)$, meaning we arrived at the least cost solution. Setting $\frac{d\Gamma}{d\varepsilon} = 0$ means that we would like to find the stationary point, which in our case, is the minimum point corresponding to least cost path. The solution will have $\varepsilon=0$ so that the corresponding set of variables will be $q^\mu$, that is the least cost solution. 
+					<b>Left</b>: Consider a simple case to illustrate this: we have 1 independent variable, $X$ and 1 dependent variable $Y$. We would like to find the set of $\{y\}$ such that the cost for the trajectory between $a$ and $b$ is minimal. A straight line is the solution with minimum cost, if we define our cost as the Euclidean distance between $a$ and $b$, shown by the bolded straight line in the left image. Let $q^1(x)$ be the least cost solution, with $N=1$ (we only have 1 dependent variable). There are other solutions, $q'^1$ such that it will produce longer trajectories, $q'^1(x)= q^1(x) + \varepsilon \zeta^1$. An example being the gray curvy line in the image.<br />
+					<b>Right</b>: As we sweep over X-axis in small increments (integration), the least cost solution has to have $\varepsilon =0$, so that $q^{\text{solution}} = q^1(x)$, meaning we arrived at the least cost solution. Setting $\frac{d\Gamma}{d\varepsilon} = 0$ means that we would like to find the stationary point, which in our case, is the minimum point corresponding to least cost path. The solution will have $\varepsilon=0$ so that the corresponding set of variables will be $q^\mu$, that is the least cost solution. The graph of variation against cost function, $\varepsilon$ against $\Gamma$ was intentionally drawn to be asymmetrical to show that $\Zeta^\mu$ is an arbitrary function. 
 				</p>
 			</div>
 			<div class="6u 12u$(medium)"><span class="image fit"></span><img src="assets/images/ELE.png" alt="ELE-demo">
@@ -230,14 +245,14 @@ datatable: true
 		</div>
 	</p>
 	<p>
-		Sub-optimal solutions, $\{q'^\mu\}$ are defined as paths that are longer than the optimal solution, $\{q^\mu\}$, so that $q'^\mu (t)= q^\mu + \varepsilon \zeta^\mu$, where $\zeta^\mu$ is subject to the constraints that after adding $\zeta^\mu$ to $q^\mu$, the resulting $q'^\mu$ will still have the same starting and ending points (because we defined that we will be looking at those intervals), $\zeta^\mu(a) = \zeta^\mu(b) = 0$. The second constraint on $\zeta^\mu$ is that it belongs to the same coordinate space as $q^mu(t)$. 
+		Sub-optimal solutions, $\{q'^\mu\}$ are defined as paths that are longer than the optimal solution, $\{q^\mu\}$, so that $q'^\mu (t)= q^\mu + \varepsilon \zeta^\mu$, where $\zeta^\mu$ is subject to the constraints that after adding $\zeta^\mu$ to $q^\mu$, the resulting $q'^\mu$ will still have the same starting and ending points (because we set up the problem that we will be looking at those intervals), $\zeta^\mu(a) = \zeta^\mu(b) = 0$. The second constraint on $\zeta^\mu$ is that it belongs to the same coordinate space as $q^\mu(t)$. 
 	</p>
 	<p>
 		$\Gamma(\varepsilon)$ is a function of $\varepsilon$, since as values of $\varepsilon$ changes, we get different values for $\Gamma(\varepsilon)$ with different $q'^\mu (t)$ associated. Setting $\frac{d\Gamma}{d\varepsilon} = 0$ means making $\Gamma$ extremal. Using Leibniz's rule, we write $\left[ \frac{d\Gamma}{d\varepsilon}\right]_{\varepsilon=0} = \int_a^b \left[ \frac{\partial L}{\partial q^\mu} \zeta^\mu + \frac{\partial L}{\partial \dot{q^\mu}} \dot{\zeta^\mu} \right]\ dt =0$,
 		where $\left[ \frac{d\Gamma}{d\varepsilon}\right]_{\varepsilon=0}$ means evaluating $\frac{d\Gamma}{d\varepsilon}$ as $\lim_{\varepsilon \to 0}$. 
 	</p>
 	<p>
-		Now we focus only on the second term in the square brackets, $\frac{\partial L}{\partial \dot{q^\mu}} \dot{\zeta^\mu}$. We integrate by parts to turn $\dot{\zeta^\mu}$ into $\zeta^\mu$, so that we get $\frac{\partial L}{\partial \dot{q^\mu}} \dot{\zeta^\mu} = -  \frac{d}{dt} \frac{\partial L}{\partial \dot{q}^\mu } \zeta^\mu + \frac{d}{dt}\left[ \frac{\partial L }{\partial \dot{q^\mu}} \zeta^\mu \right]_a^b$. Since we know that $\zeta^\mu(a) = \zeta^\mu(b) = 0$, we drop the second term, so $\frac{\partial L}{\partial \dot{q^\mu}} \dot{\zeta^\mu} = -  \frac{d}{dt} \frac{\partial L}{\partial \dot{q}^\mu } \zeta^\mu $.
+		We breakdown the equation by first focusing on the second term in the square brackets, $\frac{\partial L}{\partial \dot{q^\mu}} \dot{\zeta^\mu}$. We integrate by parts to turn $\dot{\zeta^\mu}$ into $\zeta^\mu$, so that we get $\frac{\partial L}{\partial \dot{q^\mu}} \dot{\zeta^\mu} = -  \frac{d}{dt} \frac{\partial L}{\partial \dot{q}^\mu } \zeta^\mu + \frac{d}{dt}\left[ \frac{\partial L }{\partial \dot{q^\mu}} \zeta^\mu \right]_a^b$. Since we know that $\zeta^\mu(a) = \zeta^\mu(b) = 0$, we drop the second term, so $\frac{\partial L}{\partial \dot{q^\mu}} \dot{\zeta^\mu} = -  \frac{d}{dt} \frac{\partial L}{\partial \dot{q}^\mu } \zeta^\mu $.
 	</p>
 	<p>
 		Substituting the second term back into the main equation, we get $\left[ \frac{d\Gamma}{d\varepsilon}\right]_{\varepsilon=0} = \int_a^b \left[ \frac{\partial L}{\partial q^\mu} \zeta^\mu - \frac{d}{dt}\frac{\partial L }{\partial \dot{q\mu}}\zeta^\mu \right]\ dt =0$. Factoring out common term, we get 
@@ -251,10 +266,10 @@ datatable: true
 		Hint: Notice that the terms inside the square brackets are the exact same terms at the LHS of $\ref{eq:ELE}$. The fundamental lemma of the calculus of variations by Logan (1977) demonstrated that for $\ref{eq:CalcVar}$ to be true, the quantity inside the square brackets, $\frac{\partial L}{\partial q^\mu}- \frac{d}{dt}\frac{\partial L }{\partial \dot{q\mu}} $ has to $= 0$. 
 	</p>
 	<p>
-		In the most general case, we define $A(t)$ to be a continuous function on the open interval $(a,b)$, and define $h(t)$ to be just like $\zeta^\mu$, an arbitrary function that has constraint that it vanishes at both endpoints. The general form of the equation $\ref{eq:CalcVar}$ can be written as $\int_a^b A(t) h(t)\ dt =0$. The lemma states that $A(t) =0$ for $[a,b]$ must be true for $\int_a^b A(t) h(t)\ dt =0$ to be true. 
+		Here is the proof of the lemma. In the most general case, we define $A(t)$ to be a continuous function on the open interval $(a,b)$, and define $h(t)$ to be just like $\zeta^\mu$, an arbitrary function that has constraint that it vanishes at both endpoints. The general form of the equation $\ref{eq:CalcVar}$ can be written as $\int_a^b A(t) h(t)\ dt =0$. The lemma states that $A(t) =0$ for $[a,b]$ must be true for $\int_a^b A(t) h(t)\ dt =0$ to be true. 
 	</p>
 	<p>
-		Proof by contradiction: Suppose that there is a point throughout $[a,b]$ that $A(t=\tau_0) \neq 0$, say it is bigger than 0, $A(t=\tau_0) > 0$. Then there must be two points, $\tau_1, \tau_2$ such that $\int_{\tau_1}^{\tau_2} A(t)\ dt > 0$. Since $\tau_0$ lies within $[a,b]$, and the non-zero point cannot be at $t = 0$ (the starting point), $\tau_1$ and $\tau_2$ also lies within $[a,b]$. It follows that $\int_{t1}^{t2} A(t)h(t) \ dt > 0$ must be true. Therefore, $A(t)$ has to take the value $0$ throughout the whole interval $[a,b]$. 
+		Proof by contradiction: Suppose that there is a point throughout $[a,b]$ that $A(t=\tau_0) \neq 0$, say it is bigger than 0, $A(t=\tau_0) > 0$. Then there must be two points, $\tau_1, \tau_2$ such that $\int_{\tau_1}^{\tau_2} A(t)\ dt > 0$. Since $\tau_0$ lies within $[a,b]$, and the non-zero point cannot be at $t = 0$ (the starting point must be fixed), $\tau_1$ and $\tau_2$ also lies within $[a,b]$. It follows that $\int_{t1}^{t2} A(t)h(t) \ dt > 0$ must be true. Therefore, $A(t)$ has to take the value $0$ throughout the whole interval $[a,b]$. 
 	</p>
 	<p>
 		Going back to $\ref{eq:CalcVar}$, the terms within the square brackets must $= 0$, and henceforth the ELE, $\ref{eq:ELE}$. In other words, solving ELE equals making $\Gamma$ extremal. 
@@ -262,6 +277,7 @@ datatable: true
 
 </div>
 </details>
+</p>
 
 <p style="position:relative;">
 	<!-- place anchor a little above so that can reference there -->
@@ -272,7 +288,7 @@ datatable: true
 		</header></summary>
 	<div class="box">
 		<p>  
-			Lagrangian is a function that generates equations of motion, which is written in the form $L(t, q^\mu, \dot{q}^\mu, \ddot{q}^\mu, ...)$, where $t$ are independent variables, $q^\mu$ are the dependent variables and $\dot{q}^\mu$ are the first derivatives of the dependent variables. Higher order derivative terms $(\ddot{q}^\mu),\ ...$ may be included provided that the $N+1$ derivative of the function $q^\mu$ exist.
+			Lagrangian is a function that generates equations of motion, which is written in the form $L(t, q^\mu, \dot{q}^\mu, \ddot{q}^\mu, ...)$, where $t$ are independent variables, $q^\mu$ are the dependent variables and $\dot{q}^\mu$ are the first derivatives of the dependent variables. Higher order derivative terms $(\ddot{q}^\mu),\ ...$ may be included up to the order of $N$ provided that the $N+1$ derivative of the function $q^\mu$ exist.
 		</p>
 		<p>
 			Since for most physics applications the differential equations are second order, the Lagrangian only includes up to the first derivatives, $L(t, q^\mu, \dot{q}^\mu)$. An example in Physics which includes second derivatives in the Lagrangian is when elastic modulus is included to account for behavior due to mechanical stiffness. 
@@ -297,7 +313,10 @@ datatable: true
 			<h4 style="margin: -1.5em 0 0 1em">Determining if a functional is invariant</h4>
 		</header></summary>
 	<div class="box">
-		<p>TK
+		<p>Invariant functional is one of the two requirements to invoke Noether's first theorem, the other requirement being to make the functional extremal. 
+		</p>
+		<p>
+			TK
 		</p>
 	</div>
 	</details>
@@ -311,7 +330,14 @@ datatable: true
 			<h4 style="margin: -1.5em 0 0 1em">Functionals made extremal</h4>
 		</header></summary>
 	<div class="box">
-		<p>TK
+		<p>
+			Making a functional extremal is one of the two requirements to invoke Noether's first theorem, the other requirement being that the functional should be invariant under some transformation. 
+		</p>
+		<p>
+			Making a functional, $\Gamma$, extremal is equivalent to making the functional stationary. This means we set $\Gamma$ to maximum or minimum. Applying the fundamental lemma of the calculus of variations (Logan, 1977), the collection of $q^\mu(t)$ that makes a functional extremal is also the set of solutions to the $N$ ELEs. In simple words, solving ELEs equals making $\Gamma$ extremal.
+		</p>
+		<p> 
+			The proof for the fundamental lemma of the calculus of variations is presented under section <a href="#sec:ELE">Deriving ELE from Lagrangian</a>.
 		</p>
 	</div>
 	</details>

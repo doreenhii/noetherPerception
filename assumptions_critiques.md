@@ -23,13 +23,13 @@ nav-menu: true
     If we described the physical dynamics of the shape of an object to be some Lagrangian, does perceiving the world veridically mean that we will have the same Lagrangian for both the physical representation and perception, the mental representation? If yes, the research question becomes: What is the Lagrangian for a physical 3D shape? More specifically, what is the set of fundamental ingredients (abstract variables) that describe a physical 3D shape, so that when we apply some transformations (in the dimensions of all the constancies we observed: size, lighting, color, ...) the Lagrangian describing the shape is not affected.
 </p>
 <p>
-    Another direction to work on would be to choose the appropriate generalized coordinates. A generalized coordinate that simplifies the calculation typically captures all necessary information implictly. An example would be to describe the movement of a pendulum using polar coordinates ($\rho, \theta$). This is a simplification because there are $N$ ELEs to solve, one for each coordinate or variable that was defined (angle $\theta$ in polar versus $(x, y)$ in Cartesian. Therefore, a good generalized coordinate reduces the number of equations that should be solved.
+    Another direction to work on would be to choose the appropriate generalized coordinates. A generalized coordinate that simplifies the calculation typically captures all necessary information implictly. An example would be to describe the movement of a pendulum using polar coordinates $(\rho, \theta)$. This is a simplification because there are $N$ ELEs to solve, one for each coordinate or variable that was defined (angle $\theta$ in polar versus $(x, y)$ in Cartesian. Therefore, a good generalized coordinate reduces the number of equations that should be solved.
 </p>
 
 <header class="major">
     <h4>Assumption 2:</h4><p style="text-transform: none; font-size: .8em;">Perceptual conservation laws can be derived from variational principle or following Noether's theorem</p>
 </header>
-Can perception be derived from variational principle? Maybe: We know that people have been applying cost functions to solve the inverse problems in vision. On the other side of the coin, "Boltzmann’s H-theorem does not seem to be derivable through a variational principle." (Pizlo and de Barros, 2021) For H-theorem, is it just that the way has not been found, or is there absolutely no way?
+Can perception be derived from variational principle? Maybe: We know that people have been applying cost functions to solve the inverse problems in vision. On the other side of the coin, "Boltzmann’s H-theorem does not seem to be derivable through a variational principle." (Pizlo & de Barros, 2021) For H-theorem, is it just that the way has not been found, or is there absolutely no way?
 
 <p> <br /><p>
 

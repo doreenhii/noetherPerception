@@ -3,13 +3,13 @@ layout: home
 title: Home
 url: index
 landing-title: "Perception \\(X\\)  Noether's Theorem"
-description: "Thoughts and discussions: Describing human perception using the formalism of Noether’s Theorem"
+description: ""
 image: null
 author: null
 show_tile: false
 nav-menu: false 
 ---
-
+<p>A collection of thoughts and discussions: Describing human perception using the formalism of Noether’s Theorem</p>
 <p>We propose that Noether's theorem is general enough to describe human perception, extending its applications beyond Physics to Cognitive Sciences, and potentially unifying the branches of Natural Sciences. </p>
 <div class="row uniform">
 	<div class="6u 12u$(medium)">

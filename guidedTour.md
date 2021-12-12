@@ -52,10 +52,10 @@ show_tile: false
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>The Phenomena: Perceptual Constancy</h3>
+					<h3>Science for Public: Our Question, Our Direction, Our Proposal</h3>
 				</header>
-				<p>What do we have in mind when we use the word "perception"? What is perceptual constancy? Why do we adopt perceptual constancy phenomena as our test vehicles?</p>
-				<p>We present our standpoint through the lens of human visual perception.</p>
+				<p>What does the word "perception" mean? What is perceptual constancy and how is it relevant to our investigation of a universal theorem?</p>
+				<p>Specifically, we present our standpoint through the lens of human visual perception.</p>
 				<ul class="actions">
 					<li><a href="perceptualConstancy.html" class="button">Learn more</a></li>
 				</ul>

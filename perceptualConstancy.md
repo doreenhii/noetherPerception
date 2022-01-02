@@ -13,7 +13,7 @@ nav-menu: true
 
 
 <header class="major">
-	<h4>TL;DR (Too Long; Didn't Read)</h4>
+	<h4>Executive Summary or TL;DR</h4>
 </header>
 Our journey started with observation on invariance (symmetry) regarding some aspects of the world. We are inspired by the phenomena under the umbrella term of perceptual constancy, where some physical quantities are always perceived consistently regardless of time, space or some other transformations. 
 
@@ -25,9 +25,9 @@ We follow Noether's formulation: every invariance in nature is related to its co
 <header class="major">
     <h4>What is perception</h4>
 </header>
-Perception is the mental representation of physical properties. Lift up your eyes to look straight ahead of you. If you are in your favorite reading spot, you probably see a familiar visual scene that looks all too normal. However, we may say that there are two copies of the world here: a copy of the world out there, the reality; and the copy of the world within, your subjective imagery. The copy of the world within is what we called "perception". Common synonyms of perception include: the perceived world, mental representation or imagery, subjective experience, ... 
+Perception is the mental representation of physical properties. Lift up your eyes to look straight ahead of you. If you are in your favorite reading spot, you probably see a familiar visual scene that looks all too normal. However, we may say that there are two copies of the world here: a copy of the world out there, the reality; and the copy of the world within, your subjective imagery. The copy of the world within is what we called "perception". Note that the results of perception, called the percepts, are not the exact copy of the physical world, and may undergo some modifications (that is why an illusion occurs). Common synonyms of perception include: the perceived world, mental representation or imagery, subjective experience, ... 
 
-In cognitive science, perception is categorized as a low level cognitive function, as it acts similarly to a sensor, taking in information which is present out there. We may therefore describe differnt types of perception based on their sensory modalities, such as visual perception, auditory perception, haptic perception, olfactory perception, and taste. A high level cognitive function integrates perceptions from multiple sensory modalities in order to exert some effect onto the world. Some examples of high level cognitive function includes decision making, problem solving, and self control. High level cognitive function therefore critically depends on accurate perceptions of the world. 
+In cognitive science, perception is categorized as a low level cognitive function, as it acts similarly to an modified sensor, by and large representing information that is available out there. We may therefore describe differnt types of perception based on their sensory modalities, such as visual perception, auditory perception, haptic perception, olfactory perception, and taste. A high level cognitive function integrates perceptions from multiple sensory modalities in order to exert some effect onto the world. Some examples of high level cognitive function includes decision making, problem solving, and self control. High level cognitive function therefore critically depends on the arrived percepts. 
 
 <header class="major">
     <h4>Goal</h4>
@@ -46,11 +46,16 @@ The goal of this project is to understand human perception, and to describe the 
 	To be able to carry out meaningful research, it is important to pick insight-provoking phenomena. To draw a parallel, in Physics, an object by itself does not offer much incentive to be studied. In other words, if a system of interest is a ball, just by looking at the ball itself does not offer enough perspective for physicists to come up with brilliant guesses on the underlying laws of nature that are acting upon the ball. It is when the ball is set into motion that a perspective opened up, which led to the proposal of characterizing dynamics or motion of systems by energy and momentum. This may be why the field of mechanics is one of the oldest branches in physics. 
 </p>
 <p>
-	Similarly, we need more perspectives to study perception. Can we play with perception as we would play with a ball? By manipulating perception, we hope to gain much insight to perception, much more than if we would study perception alone. This is because once we set perception "into motion," we can compare two percepts. Specifically, we would like to detect a pattern, some <em>similarities</em> between the two percepts. 
+	Similarly, we need to take on more perspectives in order to study perception. Can we play with perception as we would play with a ball? By manipulating perception, we hope to gain much insight into the workings of perception, and to uncover the underlying laws. This is because once we set perception "into motion," we can compare two percepts. Specifically, we would like to detect a pattern, some <em>similarities</em> between the two percepts. We believe that these similarities are not merely empirical regularities, they hint at a deeper origin of some laws of nature.
 </p>
+<blockquote>
+	"In the beginning was the symmetry,"  -- Werner Heisenberg (Winner of The Nobel Prize in Physics 1932)
+</blockquote>
 <p>
-	In fact, finding similarities is the key to breakthroughs. Dropping a ball in New York should have some similarity with dropping a ball in France, even though many aspects may look different. The similarity is due to an underlying law of motion, and attached to the law are a set of fundamental variables such as the mass of the ball, and the gravitaional pull. The sceneries, although beautiful, are not fundamental to the pattern of ball drops in both locations, and therefore may be different. These similarities are also called invariances, constancies or symmetries (in a technical sense, symmetry under a certain transformation). 
+	For example, dropping a ball in New York should have some similarity with dropping a ball in France, even though many aspects may look different. The similarity is due to an underlying law of conservation of energy and momentum. Moreover, there are a set of fundamental variables attached to the law. The two fundamental variables for the conservation of energy are the kinetic and potential energies of the ball; while the fundamental variables for the conservation of momentum are the mass and velocity of the ball. The sceneries in New York or France, although beautiful, are not fundamental to the pattern of ball drops in both locations, and thus are allowed to differ. Therefore, identifying similarities is the first key to discover the laws of nature. Other terms to describe "similarities" include "invariances", "constancies" or "symmetries" (in a technical sense, symmetry under a certain transformation). 
 </p>
+
+
 
 
 <header class="major">

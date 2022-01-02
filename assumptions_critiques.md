@@ -38,13 +38,13 @@ Can perception be derived from variational principle? Maybe: We know that people
     <h4>Critique 1:</h4><p style="text-transform: none; font-size: .8em;">Mirror symmetry is a discrete symmetry</p>
 </header>
 <p>
-    Noether's theorem deals with continuous transformations. If conservation law is an order higher invariance (a higher order derivative), does a discrete symmetry havev conservation law? 
+    Noether's theorem deals with continuous transformations. If conservation law is an order higher invariance (a higher order derivative), does a discrete symmetry have a corresponding conservation law? Specifically, if mirror symmetry is the abstract variable capturing the concept of a shape, then 3D shape perception is invariant under a mirror symmetry, which is a discrete transformation. Mirror reflection belongs to finite symmetry group O(1) because there is only 1 plane upon mirror reflection transformation operation that the shape before and after transformation is invariant (symmetric).
 </p>
+<header>
+    <h5>Response</h5>
+</header>
 <p>
-    If mirror symmetry is the abstract variable capturing the concept of a shape, then 3D shape perception is invariant under a mirror symmetry, which is a discrete transformation. Mirror reflection belongs to finite symmetry group O(1) because there is only 1 plane upon mirror reflection transformation operation that the shape before and after transformation is invariant (symmetric).
-</p>
-<p> 
-    Can we take inspiration from quantum mechanics, where Hamiltonians are invariant under another discrete symmetry transformation, the parity transformation? 
+    Indeed, in classical physics, only continuous transformations and symmetries have corresponding conservation laws. The criterion is relaxed, however, in quantum physics, suggested by the definition of "quantum" itself being discrete. Some discrete symmetries in quantum physics include the C (charge conjugate), P (parity), and T (time reversal) symmetries with the Hamiltonians being invariant under discrete transformations.
 </p>
 
 

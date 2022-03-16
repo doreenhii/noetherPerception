@@ -74,19 +74,22 @@ An short list of perceptual constancy in everyday life (with a focus on visual p
 - Lightness constancy: the ability to distinguish a white object placed in a dark room as white while a black object placed under sunlight is black although the absolute light reflectance may not indicate so
 - Color constancy: the ability to interpret a car as having the blue color whether it is parked under sunlight or moonlight
 - Object constancy: the ability to tell that the car you saw in the side mirror is now the car in front of you
+
 To summarize, perceptual constancy can be viewed as some transformations that humans are robust to, such that the arrived percept remains constant or invariant before and after some transformation. The more we can expand this list to include more perceptual constancies, the wider perspective we will be able to take on. 
 
 
 <header class="major">
     <h4>Starting point: 3D shape constancy </h4>
 </header>
-Out of the many perceptual constancies listed above, we chose to initiate our investigation by dissecting human 3D shape constancy. Humans see in 3D. 3D perception is so natural and prevailing that we may not notice the complexity in seeing the world in 3D. Human retina only represents information in 2D. To arrive at a unique perception at a higher dimension (3D) scene given a lower dimension 2D retinal image, human visual algorithm needs to pinpoint out of an infinitely many possibilities, the one perception to arrive at. Not only so, we agree that we see things the same way, suggesting that all humans picked the same perceptual solution out of the infinitely many choices. There <em>must<em> be a law in nature that governs this process. 
+Out of the many perceptual constancies listed above, we chose to initiate our investigation by dissecting human 3D shape constancy. Humans see the world in 3D. Three dimensional perception is so natural and prevailing that we may not notice its complexity. Human retina only represents information in 2D. To arrive at a unique perception at a higher dimension (3D) scene given a lower dimension (2D) retinal image, human visual algorithm needs to pinpoint out of an infinitely many possibilities, the one perception to arrive at. Not only so, we agree that we see things the same way, suggesting that all humans picked the same perceptual solution out of the infinitely many choices. <em>There must be a law in nature</em> that governs this process. 
 
-The goal of this project is to identify the underlying law that allowed 3D shape perception to occur, a law general enough to guide all humans to arrive at the same perception. We believe we have the best chance of studying this law by following Noether's formulation: every invariance in nature is related to its conservation law through the least action principle. Refer to the <a href="brainstorm.html">Attempts</a> page for details of our proposal, as we outline the direction of research towards to identify the conservation law for visual perception.
+The goal of this project is to identify that underlying law which enabled 3D shape perception, a law general enough to guide all humans to arrive at the same percept. We believe we have the best chance of studying this law by following Noether's formulation: every invariance in nature is related to its conservation law through the least action principle. Refer to the <a href="brainstorm.html">Attempts</a> page for details of our proposal, as we outline the direction of research towards to identify the conservation law for visual perception.
 
 
-<header class="major">
+<!-- <header class="major">
     <h4>Sidetrack: Impressive perceptual constancy</h4>
 </header>
-Perceptual constancy is impressive given that the physical system supporting and maintaining the constancy is dynamic and noisy &#8212; hundred thousand neurons die everyday and the brain is noisy. This is equivalent to training a neural net, applying dropout not only during training (i.e. accounting for apoptosis during learning) but also dropout during testing (i.e. accounting for dynamic changes when confronted with a problem). Of course, we are constantly learning and adjusting, so this may not be an apt example but to get the point across, it is really impressive.
+Perceptual constancy is impressive given that the physical system supporting and maintaining the constancy is dynamic and noisy &#8212; hundred thousand neurons die everyday and the brain is noisy. This is equivalent to training a neural net, applying dropout not only during training (i.e. accounting for apoptosis during learning) but also dropout during testing (i.e. accounting for dynamic changes when confronted with a problem). Of course, we are constantly learning and adjusting, so this may not be an apt example but to get the point across, it is really impressive. 
+Well, this may be why things need to be redundantly and sparsely encoded. 
+-->
 

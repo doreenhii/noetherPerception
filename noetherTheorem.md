@@ -53,7 +53,7 @@ datatable: true
 	</div>
 	<div class="6u 12u$(medium)">
 		<p>
-			A 3D object is invariant under rigid motions, and the perception of this object is invariant under the same group of rigid motion. This invariance implies that the observer perceives the permanent characteristics of this object. We used a label “mental rotation” instead of “mental rigid motion” because the former has already been used in the cognitive literature. (Figure 3 from Pizlo & de Barros (2021) paper).
+			A 3D object is invariant under rigid motions, and the perception of this object is invariant under the same group of rigid motion. This invariance implies that the observer perceives the permanent characteristics of this object. We used a label “mental rotation” instead of “mental rigid motion” because the former has already been used in the cognitive literature. Figure adapted from Fig. 3 of Pizlo & de Barros (2021).
 		</p>
 	</div>
 </div>

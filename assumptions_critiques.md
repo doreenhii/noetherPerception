@@ -29,7 +29,7 @@ nav-menu: true
 <header class="major">
     <h4>Assumption 2:</h4><p style="text-transform: none; font-size: .8em;">Perceptual conservation laws can be derived from variational principle or following Noether's theorem</p>
 </header>
-Can perception be derived from variational principle? Maybe: We know that people have been applying cost functions to solve the inverse problems in vision. On the other side of the coin, "Boltzmann’s H-theorem does not seem to be derivable through a variational principle." (Pizlo & de Barros, 2021) For H-theorem, is it just that the way has not been found, or is there absolutely no way?
+Can perception be derived from variational principle? Maybe: We know that people have been applying cost functions to solve the inverse problems in vision. On the other side of the coin, "Boltzmann’s H-theorem does not seem to be derivable through a variational principle" (Pizlo & de Barros, 2021). For H-theorem, is it just that the way has not been found, or is there absolutely no way?
 
 <p> <br /><p>
 
